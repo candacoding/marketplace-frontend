@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ODENSHOP - Home | Marketplace</title>
+</head>
+<body>
+    <!-- Wa Icon Awal -->
+    <div class="chat fa fa-brands fa-square-whatsapp" onclick="chat()"></div>
+    <!-- Wa Icon Akhir -->
+    <!-- Header Awal -->
+    <header>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class=" nav-icon fa fa-home"></span>
+                    <span class="nav-text">Home</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="nav-icon fa fa-cart-plus"></span>
+                    <span class="nav-text">Products</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="nav-icon fa fa-list"></span>
+                    <span class="nav-text">Category</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span class="nav-icon fa fa-contact-card"></span>
+                    <span class="nav-text">Contact</span>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <!-- Header Akhir -->
+    <main>
+        <!-- Section Page - Products List -->
+        <div class="container">
+            <h2 class="title">Products List</h2>
+            <!-- Row/Baris - Products List -->
+            <div class="row">
+                <!-- Column/Kolom - Products List -->
+                <div class="col" onclick="buy('baju lebaran v1', 100000)">
+                    <img src="assets/images/product-1.jpg" />
+                    <h4>Baju Lebaran v1</h4>
+                    <p>Rp. 100.000</p>
+                </div>
+                <div class="col" onclick="buy('sepatu lebaran v1', 150000)">
+                    <img src="assets/images/product-2.jpg" />
+                    <h4>Sepatu Lebaran v1</h4>
+                    <p>Rp. 150.000</p>
+                </div>
+                <div class="col" onclick="buy('celana lebaran v1', 200000)">
+                    <img src="assets/images/product-3.jpg" />
+                    <h4>Celana Lebaran v1</h4>
+                    <p>Rp. 200.000</p>
+                </div>
+                <div class="col" onclick="buy('baju lebaran v2', 120000)">
+                    <img src="assets/images/product-4.jpg" />
+                    <h4>Baju Lebaran v2</h4>
+                    <p>Rp. 120.000</p>
+                </div>
+                <div class="col" onclick="buy('sepatu lebaran v2', 180000)">
+                    <img src="assets/images/product-5.jpg" />
+                    <h4>Sepatu Lebaran v2</h4>
+                    <p>Rp. 180.000</p>
+                </div>
+                <div class="col" onclick="buy('baju lebaran v3', 125000)">
+                    <img src="assets/images/product-6.jpg" />
+                    <h4>Baju Lebaran v3</h4>
+                    <p>Rp. 125.000</p>
+                </div>
+                <div class="col" onclick="buy('kaos kaki lebaran v1',50000)">
+                    <img src="assets/images/product-7.jpg" />
+                    <h4>Kaos Kaki Lebaran v1</h4>
+                    <p>Rp. 50.000</p>
+                </div>
+                <div class="col" onclick="buy('jam tangan lebaran v1', 250000)">
+                    <img src="assets/images/product-8.jpg" />
+                    <h4>Jam Tangan Lebaran v1</h4>
+                    <p>Rp. 250.000</p>
+                </div>
+                <div class="col" onclick="buy('jam tangan lebaran v2', 200000)">
+                    <img src="assets/images/product-9.jpg" />
+                    <h4>Jam Tangan Lebaran v2</h4>
+                    <p>Rp. 200.000</p>
+                </div>
+                <div class="col" onclick="buy('sepatu lebaran v3', 180000)">
+                    <img src="assets/images/product-10.jpg" />
+                    <h4>Sepatu Lebaran v3</h4>
+                    <p>Rp. 180.000</p>
+                </div>
+                <div class="col" onclick="buy('sepatu lebaran v4', 300000)">
+                    <img src="assets/images/product-11.jpg" />
+                    <h4>Sepatu Lebaran v4</h4>
+                    <p>Rp. 300.000</p>
+                </div>
+                <div class="col" onclick="buy('celana lebaran v2', 100000)">
+                    <img src="assets/images/product-12.jpg" />
+                    <h4>Celana Lebaran v2</h4>
+                    <p>Rp. 100.000</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Awal -->
+    <footer>
+        <p>Copyright <span id="year"></span>. ODENSHOP</p>
+    </footer>
+    <!-- Footer Akhir -->
+
+    <!-- Java Script Awal -->
+    <script src="assets/source.js"></script>
+    <!-- Java Script Akhir -->
+</body>
+</html>
